@@ -3,6 +3,9 @@
         {{ msg }}
         <br>
         {{ "Name: " + user.name +". Email: " + user.email }}
+        <br>
+        <button v-on:click="getData" type="button">Get Data</button>
+        
     </div>
 </template>
 
@@ -11,7 +14,8 @@ export default {
     name: 'childComponent',
     props: {
         msg: String,
-        user:Object
+        user: Object,
+        getData: Function
     }
     
 }

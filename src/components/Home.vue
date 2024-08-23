@@ -40,7 +40,7 @@
 
         <br>
         <br>
-        <childComponent :msg=who :user=user />
+        <childComponent :msg=who :user=user :getData="submit" />
     </div>
 </template>
 
