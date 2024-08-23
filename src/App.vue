@@ -1,17 +1,18 @@
+
 <template>
-  <div>
-    <h1>Welcome to My Restaurant</h1>
-    
-  </div>
+  
+  <Home_Component />
+  
 </template>
 
 <script>
+import Home_Component from './components/Home.vue'
+
 export default {
   name: 'App',
+  components: {
+    Home_Component,
+  }
  
 }
 </script>
-
-<style>
-
-</style>
