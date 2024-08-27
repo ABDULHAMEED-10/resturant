@@ -34,7 +34,7 @@
         <br>
         <br>
         <ul>
-            <h4>Checked Language</h4>
+            <h4>Checked Languages are</h4>
             <li v-for="name in checkedNames" :key="name">{{ name }} </li>
         </ul>
 
